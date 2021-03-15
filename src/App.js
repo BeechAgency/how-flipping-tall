@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className="Left">
         <header className="App-header">
-          <h1>H.F.T. <small>How Freaking Tall?</small></h1>
+          <h1>H.F.T <small>How Freaking Tall?</small></h1>
           <HeightThing />
 
           <input type="range" name="heightSlider" min="0" max="1500" onChange={ handleChange } value={height} />
