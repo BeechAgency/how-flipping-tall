@@ -4,7 +4,7 @@ import HeightThing from './HeightThing';
 import TallMachine from './TallMachine';
 
 function App() {
-  const [height, setHeight] = useState(100);
+  const [height, setHeight] = useState(10);
 
   const handleChange = (e) => {
     setHeight(e.target.value);
@@ -20,7 +20,7 @@ function App() {
           <h1>H.F.T <small>How Freaking Tall?</small></h1>
           <HeightThing />
 
-          <input type="range" name="heightSlider" min="0" max="1500" onChange={ handleChange } value={height} />
+          <input type="range" name="heightSlider" min="0" max="150" onChange={ handleChange } value={height} />
         </header>
       </div>
       
