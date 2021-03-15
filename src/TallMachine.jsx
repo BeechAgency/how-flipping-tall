@@ -13,7 +13,6 @@ function TallMachine( { height = 10} ) {
             <span className="heightTeller">
                 {height}vh<br />
                 <span>{heightPx}px</span>
-            
             </span>
         </div>
     );

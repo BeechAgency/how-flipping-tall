@@ -20,7 +20,13 @@ function App() {
           <h1>H.F.T <small>How Freaking Tall?</small></h1>
           <HeightThing />
 
-          <input type="range" name="heightSlider" min="0" max="150" onChange={ handleChange } value={height} />
+          <input 
+            type="range" 
+            name="heightSlider" 
+            min="0" 
+            max="150" 
+            onChange={ handleChange }
+            value={height} />
         </header>
       </div>
       
