@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HeightThing from './HeightThing';
 import TallMachine from './TallMachine';
@@ -8,7 +7,6 @@ function App() {
   const [height, setHeight] = useState(100);
 
   const handleChange = (e) => {
-    console.log(e);
     setHeight(e.target.value);
   }
 
