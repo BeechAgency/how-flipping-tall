@@ -6,7 +6,7 @@ function TallMachine( { height = 10} ) {
     
     useEffect(() => {
         setHeightPx(ref.current.clientHeight)
-      })
+      }, [])
 
     return (
         <div style={ { height: height + "vh" } } className="heightBlock" ref={ref}>
